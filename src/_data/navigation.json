@@ -1,0 +1,17 @@
+{
+    "items": [
+      {
+        "name": "Galleri",
+        "dest": "/galleri"
+      },
+      {
+        "name": "Boka Tid",
+        "dest": "/boka"
+      },
+      {
+        "name": "Om oss",
+        "dest": "/info"
+      }
+    ]
+  }
+  

@@ -7,6 +7,8 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    {% block content %}{% endblock %}
+    {% include "components/header.html" %}
+    <main class="container">{{ content | safe }}</main>
+    {% include "components/footer.html" %}
   </body>
 </html>
