@@ -1,4 +1,4 @@
 ---
 title: 'Ani-Photo'
-layout: 'hem.html'
+layout: 'info.html'
 ---
