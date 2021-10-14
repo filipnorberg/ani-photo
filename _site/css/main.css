@@ -1,0 +1,157 @@
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+/* Box sizing rules */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  background-color: #539987;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "Sacramento", cursive;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: white;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #224D42;
+  margin-top: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  padding-left: 1rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.jpg {
+  max-height: 80vh;
+}
+
+.bild1 {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.bild2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.bild3 {
+  display: flex;
+  padding: 1rem;
+}
+
+.svg {
+  min-width: 3.5rem;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner h1 {
+  padding-left: 1rem;
+}

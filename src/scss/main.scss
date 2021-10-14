@@ -1,7 +1,17 @@
 @import "reset";
+@import "body";
+@import "text";
 
+
+// Components
 @import "components/footer";
 
 @import "components/navigation";
 
+@import "components/images";
+
+@import "components/header";
+
+
+// Utilities
 @import "utilities/container";
