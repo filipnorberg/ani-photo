@@ -76,7 +76,8 @@ select {
   }
 }
 body {
-  background-color: #539987;
+  background: url("/assets/svg/bg.svg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -146,6 +147,13 @@ nav a {
 
 .svg {
   min-width: 3.5rem;
+}
+
+.imgdesc {
+  max-width: 15vw;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .banner {
