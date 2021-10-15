@@ -1,7 +1,9 @@
+@charset "UTF-8";
 /* https://piccalil.li/blog/a-modern-css-reset/ */
 /* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 *,
 *::before,
 *::after {
@@ -77,9 +79,130 @@ select {
 }
 body {
   background: url("/assets/svg/bg.svg");
-  background-size: cover;
+  background-repeat: repeat-y;
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #224D42;
+  margin-top: auto;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.foot1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: left;
+  min-width: 49vw;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-width: 49vw;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  padding-left: 5rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.jpg {
+  height: 85vh;
+  width: 34vw;
+  border-radius: 100px;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bild1 .jpg {
+  background: url("../assets/img/hund1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 4vw;
+}
+
+.bild2 .jpg {
+  background: url("../assets/img/fågel1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: 4vw;
+}
+
+.bild3 .jpg {
+  background: url("../assets/img/katt1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: 4vw;
+}
+
+.bild1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0rem;
+  margin-top: 5vh;
+  margin-bottom: 33vh;
+}
+
+.bild2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0rem;
+  margin-bottom: 30vh;
+}
+
+.bild3 {
+  display: flex;
+  justify-content: center;
+  margin-right: 20vw;
+  margin-bottom: 15vh;
+}
+
+.svg {
+  min-width: 3.5rem;
+}
+
+.imgdesc {
+  max-width: 22vw;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+}
+
+.headnav {
+  margin-left: auto;
+  padding: 1rem;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner h1 {
+  padding-left: 1rem;
 }
 
 a {
@@ -97,69 +220,9 @@ h1 {
 h2 {
   color: black;
   font-family: "Roboto", sans-serif;
+  font-size: 2rem;
 }
 
 h3 {
   color: white;
-}
-
-.footer {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #224D42;
-  margin-top: auto;
-}
-
-nav {
-  display: flex;
-  justify-content: right;
-}
-
-nav a {
-  padding-left: 1rem;
-  color: black;
-  font-family: "Roboto", sans-serif;
-}
-
-.jpg {
-  max-height: 80vh;
-}
-
-.bild1 {
-  display: flex;
-  align-items: flex-end;
-  padding: 1rem;
-}
-
-.bild2 {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  padding: 1rem;
-}
-
-.bild3 {
-  display: flex;
-  padding: 1rem;
-}
-
-.svg {
-  min-width: 3.5rem;
-}
-
-.imgdesc {
-  max-width: 15vw;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.banner {
-  display: flex;
-}
-
-.banner h1 {
-  padding-left: 1rem;
 }

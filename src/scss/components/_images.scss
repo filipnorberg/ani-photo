@@ -1,23 +1,55 @@
 .jpg {
-    max-height: 80vh;
+    height: 85vh;
+    width: 34vw;
+    border-radius: 100px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bild1 .jpg {
+    background: url("../assets/img/hund1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 4vw;
+}
+
+.bild2 .jpg {
+    background: url("../assets/img/fågel1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 4vw;
+}
+
+.bild3 .jpg {
+    background: url("../assets/img/katt1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 4vw;
 }
 
 .bild1 {
     display: flex;
-    align-items: flex-end;
-    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-top: 5vh;
+    margin-bottom: 33vh;
 }
 
 .bild2 {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-start;
-    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0rem;
+    margin-bottom: 30vh;
 }
 
 .bild3 {
     display: flex;
-    padding: 1rem;
+    justify-content: center;
+    margin-right: 20vw;
+    margin-bottom: 15vh;
 }
 
 .svg {
@@ -25,7 +57,7 @@
 }
 
 .imgdesc {
-    max-width: 15vw;
+    max-width: 22vw;
     justify-content: center;
     align-items: center;
     padding: 2rem;
