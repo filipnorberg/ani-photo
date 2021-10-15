@@ -1,0 +1,38 @@
+.button {
+    background-color: #539987;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    min-width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #224D42;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 15%;
+    padding: 1rem, 2rem;
+    margin: 8px 0;
+    border: 2px solid #539987;
+    box-sizing: border-box;
+}
+
+.meddelande {
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    border: 2px solid #539987;
+    border-radius: 4px;
+    resize: none;
+}
